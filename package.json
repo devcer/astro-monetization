@@ -1,0 +1,43 @@
+{
+  "name": "astro-monetization",
+  "version": "0.1.0",
+  "description": "This Astro component simplifies the process of adding monetization links to your Astro sites.",
+  "homepage": "https://github.com/devcer/astro-monetization#readme",
+  "bugs": {
+    "url": "https://github.com/devcer/astro-monetization/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devcer/astro-monetization"
+  },
+  "files": [
+    "index.ts",
+    "src/index.ts",
+    "src/MONETIZATION.astro",
+    "src/components"
+  ],
+  "exports": "./index.ts",
+  "keywords": [
+    "astro-component",
+    "monetization"
+  ],
+  "author": "Santosh Viswanatham",
+  "license": "MIT",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro check && tsc --noEmit && astro build",
+    "start": "astro preview",
+    "format": "prettier -w ./src",
+    "check:format": "prettier -c ./src",
+    "release": "standard-version",
+    "check": "astro check"
+  },
+  "devDependencies": {
+    "astro": "^2.1.5",
+    "cypress": "^12.8.1",
+    "prettier": "^2.8.6",
+    "prettier-plugin-astro": "^0.8.0",
+    "standard-version": "^9.5.0",
+    "typescript": "^5.0.2"
+  }
+}
