@@ -18,16 +18,15 @@ export interface Props {
 Astro.props.surpressWarnings = true;
 
 function validateProps(props: Props) {
-  console.log(props)
+  console.log(props);
   if (props.pointer) {
-      throw new Error(
-        "If you use the MONETIZATION, you have to pass the pointer"
-      );
+    throw new Error(
+      "If you use the MONETIZATION, you have to pass the pointer"
+    );
   }
 }
 
 // validateProps(Astro.props); // TODO: handle this better
-
 ---
 
-{Astro.props.pointer && <WebMonetizationTags {...Astro.props}/>}
+{Astro.props.pointer && <WebMonetizationTags {...Astro.props} />}
