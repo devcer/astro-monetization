@@ -32,7 +32,7 @@ the `<head>` section of your HTML:
 
 ```astro
 ---
-import { Monetization } from "astro-monetization";
+import { MONETIZATION } from "astro-monetization";
 ---
 
 <html lang="en">
