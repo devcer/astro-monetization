@@ -30,7 +30,8 @@
     "format": "prettier -w ./src",
     "check:format": "prettier -c ./src",
     "release": "standard-version",
-    "check": "astro check"
+    "check": "astro check",
+    "test:e2e": "cypress run"
   },
   "devDependencies": {
     "astro": "^2.1.5",
