@@ -31,7 +31,7 @@ Pull requests and/or feature requests are very welcome!
 - Run `npm run dev`
 - Open the url `http://localhost:3000/monetizationTags`
 
-## Installation (Yet to be published)
+## Installation
 
 To install Astro Monetization, run the following command in your terminal:
 
