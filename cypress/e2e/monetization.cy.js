@@ -2,7 +2,7 @@
 
 describe("Extended tags", () => {
   beforeEach(() => {
-    cy.visit("localhost:3000/monetizationTags");
+    cy.visit("localhost:4321/monetizationTags");
   });
 
   it("sets payment pointer", () => {
